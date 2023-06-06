@@ -44,7 +44,7 @@ img{
 .clear{
     clear:both;
 }
-body{background-color: beige;}
+body{background-color: rgb(253, 253, 6);}
 .login{background-color: aquamarine;
 float: left;}
 .gallery{float: left;}
