@@ -1,0 +1,56 @@
+body{font-family: Georgia, 'Times New Roman', Times, serif;}
+a{text-decoration: none;}
+ul{list-style: none;}
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+.cont{padding-left: 25px;
+    padding-right:25px;
+    margin-right: auto;
+    margin-left: auto;
+
+;}
+.header{box-shadow: 0 0 10px black;
+background-color: aliceblue;}
+
+.header .cont{display: flex;
+justify-content: space-between;
+align-items:center ;
+height: 72px;}
+
+.nav{display: flex;
+justify-content: space-between;}
+
+li a{padding: 0 30px;
+color: black;}
+.landing{background-color: bisque;
+background-size: cover;height: 100vh;}
+.logo{
+    width: 50px;
+}
+img{
+    width: 600px;
+    float: left;
+    margin: 5px;
+}
+.article{
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear:both;
+}
+body{background-color: beige;}
+.login{background-color: aquamarine;
+float: left;}
+.gallery{float: left;}
+.article{float: left;}
+.contact_us{float: left;}
+.about_us{float: left;}
+.footer{background-color: blueviolet;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.images{background-color: brown;}
